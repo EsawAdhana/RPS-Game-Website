@@ -1,0 +1,19 @@
+body {
+    background-color: #222222;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 2px green;
+}
+
+button {
+    box-shadow: 2px 2px 2px green;
+    height: 100px;
+    width: 75px;
+}
+
+.img {
+    height: 60px;
+}

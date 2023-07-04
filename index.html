@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPS Game</title>
+</head>
+
+<body>
+    <h1>Rock, paper, scissors, SHOOT!</h1>
+    <h2>Click a button to play (against the computer).</h2>
+    <div class='btn'>
+        <button onclick='clicked("🪨")'>
+            <img class='img' src='Rock.png' alt='Rock emoji'></button>
+        <button onclick='clicked("📄")'>
+            <img class='img' src='Paper.png' alt='Paper emoji'></button>
+        <button onclick='clicked("✂️")'>
+            <img class='img' src='Scissors.png' alt='Scissors emoji'></button>
+    </div>
+    <div class='round_text'>
+        <h1>User VS Computer</h1>
+        <h2> </h2>
+        <h3>SCORE: 0 - 0</h3>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
